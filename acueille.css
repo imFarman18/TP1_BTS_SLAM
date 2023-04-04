@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:ital,wght@1,300&family=Playfair+Display+SC:ital@1&family=Playfair+Display:ital@0;1&family=Roboto:ital,wght@1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+body{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-bottom: 5px solid #3b73b2;
+
+}
+
+nav h1{
+
+    color: #1e5397;
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 30px;
+
+}
+
+nav .onglets{
+
+    margin-top: 3px;
+
+    margin-left: 300px;
+
+}
+
+nav .onglets a{
+
+    text-decoration: none;
+
+    color: rgb(33, 49, 168);
+
+    margin-right: 10px;
+
+    border-bottom: 1px solid #000;
+
+    padding-bottom: 5px;
+
+}
+
+
+
+header{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background: url('https://besthqwallpapers.com/Uploads/29-6-2019/98648/colorful-fabric-background-4k-macro-colorful-fabric-texture-colorful-backgrounds.jpg');
+
+    background-size: cover;
+
+    color: #0dfad6;
+
+    padding: 40px;
+
+}
+
+header h1{
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 50px;
+
+}
+
+header h4{
+
+    margin-top: -20px;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #fff;
+
+}
+
+header button{
+
+    padding: 10px 20px;
+
+    background-color: #fff;
+
+    color:#000;
+
+    border:none;
+
+    margin-bottom: 30px;
+
+    outline:none;
+
+    font-size: 20px;
+
+    font-family: 'Playfair Display', serif;
+
+    cursor: pointer;
+
+}
+
+
+
+.main{
+
+    margin-top: 40px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.main .content .card{
+
+    display: flex;
+
+   
+
+    justify-content: center;
+
+    margin-bottom:20px;
+
+}
+
+
+.main .content .card .left{
+
+   flex: 0 0 30%;
+
+   padding: 20px;
+
+   background-color:black;
+
+   color:#0dfad6;
+
+}
+
+.main .content .card .right img{
+
+    height:300px;
+
+    width: 400px;
+
+    margin-top: 5px;
+
+}
+section{
+    height: 120vh;
+}
+
+
+
+footer{
+
+    margin-top: 40px;
+
+    border-top: 5px solid #6f6f6f;
+
+    background-color: rgb(0, 0, 0);
+
+    color: #fff;
+
+    padding: 30px 100px;
+
+}
+
+footer h1{
+
+    font-family: 'Playfair Display', serif;
+
+    border-bottom: 1px solid white;
+
+    width: 20%;
+
+    padding-bottom: 5px;
+
+}
+
+footer .services{
+
+    margin-top: -10px;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+}
+
+footer .services .service{
+
+    margin-right: 30px;
+
+}
+
+footer .services .service p{
+
+    max-width: 300px;
+
+}
+
+footer #contact{
+
+    color: rgb(181, 181, 181);
+
+}
+
+
+
+@media screen and (max-width:680px){
+
+    nav .onglets {
+
+        margin-left: 0px;
+
+        margin-bottom: 20px;
+
+    }
+
+    .main .card {
+
+        margin: 10px;
+
+    }
+
+    .main .content .card .right img{
+
+        height:200px;
+
+        width: 100%;
+
+        margin-top: -0px;
+
+    }
+
+    .main .content .card{
+
+        display: block;
+
+    }
+
+    footer{
+
+        padding: 30px;
+
+    }
+
+}
+
+
+#see  {
+    padding: 25px;
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    background: #0dfad6;
+    font-size: 18px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
